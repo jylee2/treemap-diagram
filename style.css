@@ -1,0 +1,28 @@
+.mainCenter {
+    width: 100%;
+    /* width: 100%; */
+    /* height = 100% of view height */
+    height: 100vh;
+    display: flex;
+    /* The flexible items are displayed vertically, as a column */
+    flex-direction: column;
+    /* Align the flex items at the center of the container, horizontally */
+    /* justify-content: center; */
+    /* Center the alignments for all the items of the flexible <div> element, vertically */
+    align-items: center;            
+}
+.tile:hover {
+    fill: silver;
+}
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+p {
+    font-size: 10pt;
+}
+#canvas {
+    background-color: black;
+}
+#legend {
+    border: solid;
+}
